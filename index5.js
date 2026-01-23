@@ -6,6 +6,6 @@ function greet(name) {
   return `Hello ${name}`;
 }
 
-//teste na instancia 2 2026-01-21 12-08
+//teste na EKS 2026-01-23
 
 module.exports = { greet };

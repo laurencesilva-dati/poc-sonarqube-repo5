@@ -10,5 +10,5 @@ phases:
   build:
     commands:
       - echo "Running SonarQube analysis"
-      - sonar-scanner -Dsonar.projectKey=$SONAR_PROJECT_KEY -Dsonar.sources=. -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.login=sqp_7e23d1d3104350f9cb7052fb2b3241ab89d45fe1
+      - sonar-scanner -Dsonar.projectKey=$SONAR_PROJECT_KEY -Dsonar.sources=. -Dsonar.host.url=$SONAR_HOST_URL -Dsonar.login=sqa_ead9d972858ba2e65272d5a820bfb3035e4e2e93
       - echo "Sonarqube scan completed"

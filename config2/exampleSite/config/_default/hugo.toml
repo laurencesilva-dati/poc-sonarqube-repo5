@@ -1,0 +1,7 @@
+######################## default configuration ####################
+baseURL = "/"
+languageCode = "en-us"
+title = "Influencer"
+theme = "influencer-hugo"
+summaryLength = "10"
+pagination.pagerSize = 6
